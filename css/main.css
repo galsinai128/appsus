@@ -99,6 +99,7 @@ button:hover, input[type="color"]:hover {
 }
 
 .home-page{
+    /* color: white; */
     background-image: url("../img/home-background.jpg");
     height: 100%;
     min-height: 700px;
@@ -145,7 +146,12 @@ button:hover, input[type="color"]:hover {
     border: 1px solid black;
     margin: 1rem;
     background-color: rgba(255, 255, 255, 0.623);
-    padding: 0.5rem
+    padding: 0.5rem;
+    transition: all 0.3s;
+}
+
+.note-preview-item:hover{
+    transform: scale(1.1);
 }
 
 .note-focused{
@@ -155,6 +161,11 @@ button:hover, input[type="color"]:hover {
     background-color: rgba(128, 128, 128, 0.377);
     top: 0;
     right: 0;
+
+    background-image: url("../img/keeper-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .note-focused-container{
