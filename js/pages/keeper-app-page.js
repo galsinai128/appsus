@@ -1,7 +1,10 @@
+import misterKeeper from '../components/keeper/mister-keeper.js'
+
 export default{
     template: `
         <section class= "keeper-page">
-            keeper app
+            <mister-keeper></mister-keeper>
         </section> 
-        `
+        `,
+    components:{misterKeeper}
 }
